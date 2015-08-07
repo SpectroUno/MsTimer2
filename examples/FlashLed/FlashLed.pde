@@ -33,4 +33,6 @@ void setup()
 
 void loop()
 {
+ Speed = analogRead(A0); // modify period with potentiometer
+  MsTimer2::millisec(Speed); 
 }
