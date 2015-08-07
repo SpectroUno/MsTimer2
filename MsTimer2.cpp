@@ -187,6 +187,11 @@ void MsTimer2::stop() {
 #endif
 }
 
+void MsTimer2::millisec(unsigned long ms)
+{
+	msecs = ms;
+}
+
 void MsTimer2::_overflow() {
 	count += 1;
 	
