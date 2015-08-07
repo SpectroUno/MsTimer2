@@ -20,6 +20,7 @@ namespace MsTimer2 {
 	void start();
 	void stop();
 	void _overflow();
+	void millisec(unsigned long ms);
 }
 
 #endif
