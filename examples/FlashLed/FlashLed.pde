@@ -14,6 +14,7 @@ const int led_pin = LED_BUILTIN;	// 1.0 built in LED pin var
 const int led_pin = 13;			// default to pin 13
 #endif
 
+int Speed;
 
 void flash()
 {
