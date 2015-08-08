@@ -14,7 +14,7 @@ const int led_pin = LED_BUILTIN;	// 1.0 built in LED pin var
 const int led_pin = 13;			// default to pin 13
 #endif
 
-int Speed;
+int SpeedLED;
 
 void flash()
 {
@@ -34,6 +34,6 @@ void setup()
 
 void loop()
 {
- Speed = analogRead(A0); // modify period with potentiometer
-  MsTimer2::millisec(Speed); 
+  SpeedLED = analogRead(A0); // modify period with potentiometer
+  MsTimer2::millisec(SpeedLED); 
 }
